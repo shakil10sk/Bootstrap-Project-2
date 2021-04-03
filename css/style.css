@@ -1,0 +1,152 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url('../images/header1.jpg') no-repeat center center/cover;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    position: relative;
+}
+/* banner secton css */
+    .banner{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 80%;
+    }
+    .banner-h1{
+        animation-name: bannerh1;
+        animation-duration: 2s;    }
+    @keyframes bannerh1{
+        0%{
+            opacity: 0;
+            transform: translatex(-100px);
+        }
+        100%{
+            opacity: 1;
+            transform: translatex(0px);
+        }
+    }
+
+    .banner-p{
+        animation-name: bannerp;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-fill-mode: backwards;
+    }
+    @keyframes bannerp{
+        0%{
+            opacity: 0;
+            transform: translatex(100px);
+            
+            
+        }
+        100%{
+            opacity: 1;
+            transform: translatex(0px);
+        }
+    }
+    @media only screen and (max-width: 350px)
+{
+    .banner-h1{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}    
+/* end banner section css */
+/* Our Mission Section */
+
+    .camera{
+        animation-delay: 1s;
+        animation-name: cam;
+        animation-fill-mode: backwards;
+        animation-duration: 2s;
+        
+    }
+    @keyframes cam{
+        0%{
+            transform: translate(-100px);
+        }
+        100%{
+            transform: translate(0px);
+        }
+    }
+
+    .camera-paragraph{
+        animation-name: camerap;
+        animation-duration: 2s;
+        animation-fill-mode: backwards;
+    }
+    @keyframes camerap{
+        0%{
+            opacity: 0;
+            transform: translatex(100px);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+/* end Our Mission section */
+
+/* Card Section in Join Us */
+.card-bg{
+   
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,5)), url('../images/camra-card.jpg') no-repeat center center/cover;
+}
+.cardbtn{
+    border-radius: 40px;
+}
+.card1{
+    animation-name: card1;
+    animation-duration: 3s;
+}
+@keyframes card1{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.card2{
+    animation-name: card2;
+    animation-duration: 3s;
+    
+}
+@keyframes card2{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.card3{
+    animation-name: card3;
+    animation-duration: 3s;
+    
+}
+@keyframes card3{
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+/* End Card section i join us */
+.footer{
+    border-bottom: 2px solid black;
+}
