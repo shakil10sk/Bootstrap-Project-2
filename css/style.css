@@ -59,6 +59,7 @@ header{
     }
 }    
 /* end banner section css */
+
 /* Our Mission Section */
 
     .camera{
@@ -149,4 +150,41 @@ header{
 /* End Card section i join us */
 .footer{
     border-bottom: 2px solid black;
+}
+.container-fluid{
+    position: relative;
+}
+/* .get{
+     transform: skewX(25deg); 
+    display: inline-block;
+     background-color: #0074d9;
+    height: 100px;
+    width: 100px;
+    font-size: 1px;
+    padding: 1px;
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    animation: skew 3s infinite; 
+    transform: skew(-15deg,0deg);
+   
+   
+     animation-direction: alternate; 
+}
+ */
+/* .alone{
+    width: 300px;
+    height:80px;
+    margin-left:40px;
+    -webkit-transform: perspective(100px) rotateX(-25deg);
+    -webkit-transform-origin: left center;
+    -moz-transform: perspective(100px) rotateX(-25deg);
+    -moz-transform-origin: left center;
+} */
+
+.submitdiv{
+    width: 100%;
+}
+.submitbtn{
+    width: 100%;
 }
